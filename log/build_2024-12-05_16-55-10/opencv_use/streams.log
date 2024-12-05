@@ -1,0 +1,26 @@
+[0.075s] Invoking command in '/home/klein/camera_ros2/build/opencv_use': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/klein/camera_ros2/install/demo_cv_image:/opt/ros/foxy /usr/bin/cmake --build /home/klein/camera_ros2/build/opencv_use -- -j4 -l4
+[0.231s] [35m[1mScanning dependencies of target my_opencv[0m
+[0.423s] [ 50%] [32mBuilding CXX object CMakeFiles/my_opencv.dir/src/my_opencv.cpp.o[0m
+[22.033s] [100%] [32m[1mLinking CXX executable my_opencv[0m
+[23.682s] [100%] Built target my_opencv
+[23.724s] Invoked command in '/home/klein/camera_ros2/build/opencv_use' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/klein/camera_ros2/install/demo_cv_image:/opt/ros/foxy /usr/bin/cmake --build /home/klein/camera_ros2/build/opencv_use -- -j4 -l4
+[23.840s] Invoking command in '/home/klein/camera_ros2/build/opencv_use': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/klein/camera_ros2/install/demo_cv_image:/opt/ros/foxy /usr/bin/cmake --install /home/klein/camera_ros2/build/opencv_use
+[23.869s] -- Install configuration: ""
+[23.869s] -- Installing: /home/klein/camera_ros2/install/opencv_use/lib/opencv_use/my_opencv
+[23.881s] -- Set runtime path of "/home/klein/camera_ros2/install/opencv_use/lib/opencv_use/my_opencv" to ""
+[23.883s] -- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/ament_index/resource_index/package_run_dependencies/opencv_use
+[23.883s] -- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/ament_index/resource_index/parent_prefix_path/opencv_use
+[23.883s] -- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/environment/ament_prefix_path.sh
+[23.883s] -- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/environment/ament_prefix_path.dsv
+[23.883s] -- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/environment/path.sh
+[23.883s] -- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/environment/path.dsv
+[23.884s] -- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/local_setup.bash
+[23.884s] -- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/local_setup.sh
+[23.884s] -- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/local_setup.zsh
+[23.884s] -- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/local_setup.dsv
+[23.884s] -- Installing: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/package.dsv
+[23.884s] -- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/ament_index/resource_index/packages/opencv_use
+[23.884s] -- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/cmake/opencv_useConfig.cmake
+[23.884s] -- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/cmake/opencv_useConfig-version.cmake
+[23.884s] -- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/package.xml
+[23.887s] Invoked command in '/home/klein/camera_ros2/build/opencv_use' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/klein/camera_ros2/install/demo_cv_image:/opt/ros/foxy /usr/bin/cmake --install /home/klein/camera_ros2/build/opencv_use

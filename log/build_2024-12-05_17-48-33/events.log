@@ -1,0 +1,750 @@
+[0.000000] (-) TimerEvent: {}
+[0.002051] (astra_camera_msgs) JobQueued: {'identifier': 'astra_camera_msgs', 'dependencies': OrderedDict()}
+[0.002301] (opencv_use) JobQueued: {'identifier': 'opencv_use', 'dependencies': OrderedDict()}
+[0.002436] (astra_camera) JobQueued: {'identifier': 'astra_camera', 'dependencies': OrderedDict([('astra_camera_msgs', '/home/klein/camera_ros2/install/astra_camera_msgs')])}
+[0.002554] (astra_camera_msgs) JobStarted: {'identifier': 'astra_camera_msgs'}
+[0.034452] (opencv_use) JobStarted: {'identifier': 'opencv_use'}
+[0.058276] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'cmake'}
+[0.065656] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'build'}
+[0.065878] (astra_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/klein/camera_ros2/build/astra_camera_msgs', '--', '-j4', '-l4'], 'cwd': '/home/klein/camera_ros2/build/astra_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'klein'), ('SSH_AGENT_PID', '1780'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/klein/camera_ros2/install/astra_camera/lib:/home/klein/camera_ros2/install/astra_camera_msgs/lib:/usr/local/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/klein'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1682'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '18665'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/klein/camera_ros2/install:/home/klein/ros2move_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'klein'), ('JOURNAL_STREAM', '8:57752'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'klein'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/klein-virtual-machine:@/tmp/.ICE-unix/1815,unix/klein-virtual-machine:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', '8a198f24569b43caad6e35084f3e8924'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/klein/camera_ros2/install/opencv_use:/home/klein/camera_ros2/install/astra_camera:/home/klein/camera_ros2/install/astra_camera_msgs:/home/klein/ros2move_ws/install/pkg01_helloworld_cpp:/home/klein/ros2move_ws/install/cpp01_topic:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8c27a63e-9f30-42b6-8e06-35fb1a21947f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/klein/camera_ros2/build/astra_camera_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/klein/camera_ros2/install/opencv_use:/home/klein/camera_ros2/install/astra_camera:/home/klein/camera_ros2/install/astra_camera_msgs:/home/klein/ros2move_ws/install/pkg01_helloworld_cpp:/home/klein/ros2move_ws/install/cpp01_topic:/opt/ros/foxy')]), 'shell': False}
+[0.088274] (opencv_use) JobProgress: {'identifier': 'opencv_use', 'progress': 'cmake'}
+[0.093396] (opencv_use) JobProgress: {'identifier': 'opencv_use', 'progress': 'build'}
+[0.100299] (opencv_use) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/klein/camera_ros2/build/opencv_use', '--', '-j4', '-l4'], 'cwd': '/home/klein/camera_ros2/build/opencv_use', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'klein'), ('SSH_AGENT_PID', '1780'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/klein/camera_ros2/install/astra_camera/lib:/home/klein/camera_ros2/install/astra_camera_msgs/lib:/usr/local/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/klein'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1682'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '18665'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/klein/camera_ros2/install:/home/klein/ros2move_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'klein'), ('JOURNAL_STREAM', '8:57752'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'klein'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/klein-virtual-machine:@/tmp/.ICE-unix/1815,unix/klein-virtual-machine:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', '8a198f24569b43caad6e35084f3e8924'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/klein/camera_ros2/install/opencv_use:/home/klein/camera_ros2/install/astra_camera:/home/klein/camera_ros2/install/astra_camera_msgs:/home/klein/ros2move_ws/install/pkg01_helloworld_cpp:/home/klein/ros2move_ws/install/cpp01_topic:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8c27a63e-9f30-42b6-8e06-35fb1a21947f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/klein/camera_ros2/build/opencv_use'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/klein/camera_ros2/install/opencv_use:/home/klein/camera_ros2/install/astra_camera:/home/klein/camera_ros2/install/astra_camera_msgs:/home/klein/ros2move_ws/install/pkg01_helloworld_cpp:/home/klein/ros2move_ws/install/cpp01_topic:/opt/ros/foxy')]), 'shell': False}
+[0.104426] (-) TimerEvent: {}
+[0.205696] (-) TimerEvent: {}
+[0.238279] (opencv_use) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_opencv\x1b[0m\n'}
+[0.285250] (astra_camera_msgs) StdoutLine: {'line': b'[  1%] Built target astra_camera_msgs__cpp\n'}
+[0.312380] (-) TimerEvent: {}
+[0.354916] (opencv_use) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_opencv.dir/src/my_opencv.cpp.o\x1b[0m\n'}
+[0.383769] (astra_camera_msgs) StdoutLine: {'line': b'[ 12%] Built target astra_camera_msgs__rosidl_generator_c\n'}
+[0.418637] (-) TimerEvent: {}
+[0.432324] (astra_camera_msgs) StdoutLine: {'line': b'[ 24%] Built target astra_camera_msgs__rosidl_typesupport_cpp\n'}
+[0.476810] (astra_camera_msgs) StdoutLine: {'line': b'[ 35%] Built target astra_camera_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.500386] (astra_camera_msgs) StdoutLine: {'line': b'[ 47%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c\n'}
+[0.519996] (-) TimerEvent: {}
+[0.523912] (astra_camera_msgs) StdoutLine: {'line': b'[ 58%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.545902] (astra_camera_msgs) StdoutLine: {'line': b'[ 70%] Built target astra_camera_msgs__rosidl_typesupport_c\n'}
+[0.620835] (-) TimerEvent: {}
+[0.624473] (astra_camera_msgs) StdoutLine: {'line': b'[ 82%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.683855] (astra_camera_msgs) StdoutLine: {'line': b'[ 82%] Built target astra_camera_msgs\n'}
+[0.721477] (-) TimerEvent: {}
+[0.766759] (astra_camera_msgs) StdoutLine: {'line': b'[ 83%] Built target astra_camera_msgs__py\n'}
+[0.821850] (-) TimerEvent: {}
+[0.860209] (astra_camera_msgs) StdoutLine: {'line': b'[ 93%] Built target astra_camera_msgs__python\n'}
+[0.924877] (-) TimerEvent: {}
+[0.945111] (astra_camera_msgs) StdoutLine: {'line': b'[ 95%] Built target astra_camera_msgs__rosidl_typesupport_c__pyext\n'}
+[0.960349] (astra_camera_msgs) StdoutLine: {'line': b'[ 97%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.981032] (astra_camera_msgs) StdoutLine: {'line': b'[100%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.017988] (astra_camera_msgs) CommandEnded: {'returncode': 0}
+[1.025959] (-) TimerEvent: {}
+[1.129801] (-) TimerEvent: {}
+[1.232868] (-) TimerEvent: {}
+[1.333757] (-) TimerEvent: {}
+[1.435055] (-) TimerEvent: {}
+[1.524454] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'install'}
+[1.536245] (-) TimerEvent: {}
+[1.552226] (astra_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/klein/camera_ros2/build/astra_camera_msgs'], 'cwd': '/home/klein/camera_ros2/build/astra_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'klein'), ('SSH_AGENT_PID', '1780'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/klein/camera_ros2/install/astra_camera/lib:/home/klein/camera_ros2/install/astra_camera_msgs/lib:/usr/local/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/klein'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1682'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '18665'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/klein/camera_ros2/install:/home/klein/ros2move_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'klein'), ('JOURNAL_STREAM', '8:57752'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'klein'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/klein-virtual-machine:@/tmp/.ICE-unix/1815,unix/klein-virtual-machine:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', '8a198f24569b43caad6e35084f3e8924'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/klein/camera_ros2/install/opencv_use:/home/klein/camera_ros2/install/astra_camera:/home/klein/camera_ros2/install/astra_camera_msgs:/home/klein/ros2move_ws/install/pkg01_helloworld_cpp:/home/klein/ros2move_ws/install/cpp01_topic:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8c27a63e-9f30-42b6-8e06-35fb1a21947f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/klein/camera_ros2/build/astra_camera_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/klein/camera_ros2/install/opencv_use:/home/klein/camera_ros2/install/astra_camera:/home/klein/camera_ros2/install/astra_camera_msgs:/home/klein/ros2move_ws/install/pkg01_helloworld_cpp:/home/klein/ros2move_ws/install/cpp01_topic:/opt/ros/foxy')]), 'shell': False}
+[1.590035] (astra_camera_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.591255] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/astra_camera_msgs\n'}
+[1.593232] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs\n'}
+[1.594094] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv\n'}
+[1.594936] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail\n'}
+[1.596030] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__struct.h\n'}
+[1.596252] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__functions.c\n'}
+[1.597094] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__functions.c\n'}
+[1.597420] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__functions.c\n'}
+[1.597632] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__struct.h\n'}
+[1.598200] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__type_support.h\n'}
+[1.599094] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__type_support.h\n'}
+[1.600377] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__struct.h\n'}
+[1.602363] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__type_support.h\n'}
+[1.603143] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__struct.h\n'}
+[1.603702] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__struct.h\n'}
+[1.604542] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__functions.c\n'}
+[1.605288] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__functions.h\n'}
+[1.606362] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__functions.c\n'}
+[1.608393] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__functions.h\n'}
+[1.609361] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__struct.h\n'}
+[1.609744] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__functions.h\n'}
+[1.610102] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__functions.h\n'}
+[1.610778] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__type_support.h\n'}
+[1.611030] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__type_support.h\n'}
+[1.611177] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__type_support.h\n'}
+[1.611301] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__functions.h\n'}
+[1.611424] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__functions.h\n'}
+[1.611496] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__functions.c\n'}
+[1.611731] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/set_int32.h\n'}
+[1.611987] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_camera_params.h\n'}
+[1.612258] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_string.h\n'}
+[1.612349] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_device_info.h\n'}
+[1.612648] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_int32.h\n'}
+[1.622265] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_camera_info.h\n'}
+[1.623033] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg\n'}
+[1.623240] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail\n'}
+[1.623450] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__functions.h\n'}
+[1.623626] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__functions.c\n'}
+[1.623820] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__functions.h\n'}
+[1.623977] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__type_support.h\n'}
+[1.624080] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__struct.h\n'}
+[1.624159] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__struct.h\n'}
+[1.624251] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__struct.h\n'}
+[1.624451] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__type_support.h\n'}
+[1.624616] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__functions.c\n'}
+[1.624828] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__functions.c\n'}
+[1.625006] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__functions.h\n'}
+[1.625164] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__type_support.h\n'}
+[1.625320] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/device_info.h\n'}
+[1.625396] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/extrinsics.h\n'}
+[1.625537] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.625866] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/metadata.h\n'}
+[1.626086] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.sh\n'}
+[1.626284] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.dsv\n'}
+[1.626469] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_c.so\n'}
+[1.626910] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs\n'}
+[1.627073] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv\n'}
+[1.627146] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail\n'}
+[1.627291] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h\n'}
+[1.627502] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h\n'}
+[1.627675] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_c.h\n'}
+[1.627872] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[1.628040] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h\n'}
+[1.628210] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h\n'}
+[1.628379] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg\n'}
+[1.628546] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail\n'}
+[1.628713] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h\n'}
+[1.628880] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[1.629048] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h\n'}
+[1.629215] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.629380] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.629547] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs\n'}
+[1.629789] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv\n'}
+[1.630007] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail\n'}
+[1.630192] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.630380] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.630548] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.630793] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.630879] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/dds_fastrtps\n'}
+[1.630952] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.631040] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.631179] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg\n'}
+[1.631476] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail\n'}
+[1.631642] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.631819] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.631909] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/dds_fastrtps\n'}
+[1.631980] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.632054] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.632151] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.632246] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs\n'}
+[1.632318] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv\n'}
+[1.632444] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail\n'}
+[1.632723] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__type_support.c\n'}
+[1.632814] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_c.h\n'}
+[1.632892] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h\n'}
+[1.632963] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_c.h\n'}
+[1.638524] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__type_support.c\n'}
+[1.638765] (-) TimerEvent: {}
+[1.639030] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__type_support.c\n'}
+[1.639369] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__type_support.c\n'}
+[1.639560] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_c.h\n'}
+[1.639698] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h\n'}
+[1.639868] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__type_support.c\n'}
+[1.640072] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__type_support.c\n'}
+[1.640242] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_c.h\n'}
+[1.640410] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg\n'}
+[1.640577] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.640723] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail\n'}
+[1.640904] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__type_support.c\n'}
+[1.641096] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h\n'}
+[1.641304] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h\n'}
+[1.641494] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__type_support.c\n'}
+[1.641675] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__type_support.c\n'}
+[1.641864] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h\n'}
+[1.642048] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.642224] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_c.so\n'}
+[1.642426] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs\n'}
+[1.642665] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv\n'}
+[1.650198] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_camera_params.hpp\n'}
+[1.650807] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail\n'}
+[1.651044] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__type_support.hpp\n'}
+[1.651232] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__builder.hpp\n'}
+[1.651354] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__struct.hpp\n'}
+[1.651661] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__traits.hpp\n'}
+[1.651800] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__traits.hpp\n'}
+[1.651919] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__type_support.hpp\n'}
+[1.651998] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__traits.hpp\n'}
+[1.652158] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__struct.hpp\n'}
+[1.652250] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__type_support.hpp\n'}
+[1.652334] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__struct.hpp\n'}
+[1.652440] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__builder.hpp\n'}
+[1.652618] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__traits.hpp\n'}
+[1.652972] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__builder.hpp\n'}
+[1.653193] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__builder.hpp\n'}
+[1.653378] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__struct.hpp\n'}
+[1.653632] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__traits.hpp\n'}
+[1.654016] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__type_support.hpp\n'}
+[1.654245] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__builder.hpp\n'}
+[1.654443] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__type_support.hpp\n'}
+[1.654639] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__struct.hpp\n'}
+[1.654824] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__struct.hpp\n'}
+[1.655040] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__type_support.hpp\n'}
+[1.655228] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__builder.hpp\n'}
+[1.655402] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__traits.hpp\n'}
+[1.655576] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_device_info.hpp\n'}
+[1.655912] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/set_int32.hpp\n'}
+[1.656112] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_string.hpp\n'}
+[1.656313] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_camera_info.hpp\n'}
+[1.656484] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_int32.hpp\n'}
+[1.656657] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg\n'}
+[1.656828] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/device_info.hpp\n'}
+[1.657007] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail\n'}
+[1.657185] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__type_support.hpp\n'}
+[1.657363] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__type_support.hpp\n'}
+[1.657542] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__struct.hpp\n'}
+[1.657731] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__struct.hpp\n'}
+[1.657926] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__traits.hpp\n'}
+[1.658111] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__type_support.hpp\n'}
+[1.658338] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__builder.hpp\n'}
+[1.658714] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__struct.hpp\n'}
+[1.658855] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__builder.hpp\n'}
+[1.658949] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__builder.hpp\n'}
+[1.659039] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__traits.hpp\n'}
+[1.659137] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__traits.hpp\n'}
+[1.659216] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.659292] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/metadata.hpp\n'}
+[1.659368] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/extrinsics.hpp\n'}
+[1.659466] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs\n'}
+[1.659726] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv\n'}
+[1.659831] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail\n'}
+[1.659919] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__type_support.cpp\n'}
+[1.660022] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__type_support.cpp\n'}
+[1.660185] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.660369] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.660544] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.660719] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__type_support.cpp\n'}
+[1.660887] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.661080] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.661254] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__type_support.cpp\n'}
+[1.661427] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__type_support.cpp\n'}
+[1.661598] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__type_support.cpp\n'}
+[1.661785] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.661959] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg\n'}
+[1.662140] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail\n'}
+[1.662325] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.662509] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.662714] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.662914] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__type_support.cpp\n'}
+[1.663114] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__type_support.cpp\n'}
+[1.663348] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__type_support.cpp\n'}
+[1.667660] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.668022] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_cpp.so\n'}
+[1.668197] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.sh\n'}
+[1.668393] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.dsv\n'}
+[1.668598] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/__init__.py\n'}
+[1.740060] (-) TimerEvent: {}
+[1.750003] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg\n'}
+[1.751326] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/__init__.py\n'}
+[1.751770] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/_extrinsics_s.c\n'}
+[1.752000] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/_device_info_s.c\n'}
+[1.752196] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/_metadata.py\n'}
+[1.752379] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/_metadata_s.c\n'}
+[1.752674] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/_extrinsics.py\n'}
+[1.752827] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/_device_info.py\n'}
+[1.752951] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv\n'}
+[1.753131] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_int32_s.c\n'}
+[1.753493] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_camera_params_s.c\n'}
+[1.753684] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/__init__.py\n'}
+[1.753871] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_set_int32.py\n'}
+[1.754049] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_camera_params.py\n'}
+[1.754220] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_int32.py\n'}
+[1.754393] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_camera_info.py\n'}
+[1.754563] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_set_int32_s.c\n'}
+[1.754737] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_camera_info_s.c\n'}
+[1.754937] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_device_info.py\n'}
+[1.755106] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_string.py\n'}
+[1.755451] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_string_s.c\n'}
+[1.755824] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_device_info_s.c\n'}
+[1.756030] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.756380] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.757109] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.758540] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/lib/libastra_camera_msgs__python.so\n'}
+[1.759147] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.idl\n'}
+[1.759810] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.idl\n'}
+[1.760480] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.idl\n'}
+[1.760834] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.idl\n'}
+[1.761427] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.idl\n'}
+[1.762508] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.idl\n'}
+[1.762967] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.idl\n'}
+[1.763454] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.idl\n'}
+[1.763788] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.idl\n'}
+[1.764043] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.msg\n'}
+[1.764781] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.msg\n'}
+[1.765414] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.msg\n'}
+[1.765931] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.srv\n'}
+[1.766344] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Request.msg\n'}
+[1.766578] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Response.msg\n'}
+[1.767217] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.srv\n'}
+[1.767474] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Request.msg\n'}
+[1.768025] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Response.msg\n'}
+[1.768324] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.srv\n'}
+[1.768551] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Request.msg\n'}
+[1.769049] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Response.msg\n'}
+[1.769295] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.srv\n'}
+[1.769480] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Request.msg\n'}
+[1.769651] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Response.msg\n'}
+[1.769879] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.srv\n'}
+[1.769985] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Request.msg\n'}
+[1.770072] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Response.msg\n'}
+[1.770157] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.srv\n'}
+[1.770244] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Request.msg\n'}
+[1.770333] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Response.msg\n'}
+[1.770432] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/ament_index/resource_index/package_run_dependencies/astra_camera_msgs\n'}
+[1.770527] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/ament_index/resource_index/parent_prefix_path/astra_camera_msgs\n'}
+[1.771071] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.sh\n'}
+[1.771220] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.dsv\n'}
+[1.771369] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.sh\n'}
+[1.772512] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.dsv\n'}
+[1.773195] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.bash\n'}
+[1.773725] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.sh\n'}
+[1.775035] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.zsh\n'}
+[1.775796] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.dsv\n'}
+[1.776345] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv\n'}
+[1.776594] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/ament_index/resource_index/packages/astra_camera_msgs\n'}
+[1.776702] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_generator_cExport.cmake\n'}
+[1.776910] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.777061] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.777248] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.777464] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.777587] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.777659] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.777728] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.777800] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.777870] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.777941] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.778032] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.778141] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.778339] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.778542] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.778743] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.778951] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.779360] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.779551] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig.cmake\n'}
+[1.779727] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig-version.cmake\n'}
+[1.779869] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera_msgs/share/astra_camera_msgs/package.xml\n'}
+[1.796674] (astra_camera_msgs) CommandEnded: {'returncode': 0}
+[1.840991] (-) TimerEvent: {}
+[1.942959] (-) TimerEvent: {}
+[2.045410] (-) TimerEvent: {}
+[2.146445] (-) TimerEvent: {}
+[2.248013] (-) TimerEvent: {}
+[2.350036] (-) TimerEvent: {}
+[2.393084] (astra_camera_msgs) JobEnded: {'identifier': 'astra_camera_msgs', 'rc': 0}
+[2.397303] (astra_camera) JobStarted: {'identifier': 'astra_camera'}
+[2.435953] (astra_camera) JobProgress: {'identifier': 'astra_camera', 'progress': 'cmake'}
+[2.444407] (astra_camera) JobProgress: {'identifier': 'astra_camera', 'progress': 'build'}
+[2.445089] (astra_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/klein/camera_ros2/build/astra_camera', '--', '-j4', '-l4'], 'cwd': '/home/klein/camera_ros2/build/astra_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'klein'), ('SSH_AGENT_PID', '1780'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/klein/camera_ros2/install/astra_camera_msgs/lib:/home/klein/camera_ros2/install/astra_camera/lib:/usr/local/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/klein'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1682'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '18665'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/klein/camera_ros2/install:/home/klein/ros2move_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'klein'), ('JOURNAL_STREAM', '8:57752'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'klein'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/klein-virtual-machine:@/tmp/.ICE-unix/1815,unix/klein-virtual-machine:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', '8a198f24569b43caad6e35084f3e8924'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/klein/camera_ros2/install/opencv_use:/home/klein/camera_ros2/install/astra_camera:/home/klein/camera_ros2/install/astra_camera_msgs:/home/klein/ros2move_ws/install/pkg01_helloworld_cpp:/home/klein/ros2move_ws/install/cpp01_topic:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8c27a63e-9f30-42b6-8e06-35fb1a21947f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/klein/camera_ros2/build/astra_camera'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/klein/camera_ros2/install/astra_camera_msgs:/home/klein/camera_ros2/install/opencv_use:/home/klein/camera_ros2/install/astra_camera:/home/klein/ros2move_ws/install/pkg01_helloworld_cpp:/home/klein/ros2move_ws/install/cpp01_topic:/opt/ros/foxy')]), 'shell': False}
+[2.456305] (-) TimerEvent: {}
+[2.558987] (-) TimerEvent: {}
+[2.660996] (-) TimerEvent: {}
+[2.762969] (-) TimerEvent: {}
+[2.770637] (astra_camera) StdoutLine: {'line': b'[ 87%] Built target astra_camera\n'}
+[2.869627] (-) TimerEvent: {}
+[2.906633] (astra_camera) StdoutLine: {'line': b'[100%] Built target list_devices_node\n'}
+[2.948906] (astra_camera) CommandEnded: {'returncode': 0}
+[2.972593] (-) TimerEvent: {}
+[3.075202] (-) TimerEvent: {}
+[3.134118] (astra_camera) JobProgress: {'identifier': 'astra_camera', 'progress': 'install'}
+[3.134967] (astra_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/klein/camera_ros2/build/astra_camera'], 'cwd': '/home/klein/camera_ros2/build/astra_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'klein'), ('SSH_AGENT_PID', '1780'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/klein/camera_ros2/install/astra_camera_msgs/lib:/home/klein/camera_ros2/install/astra_camera/lib:/usr/local/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/klein'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1682'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '18665'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/klein/camera_ros2/install:/home/klein/ros2move_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'klein'), ('JOURNAL_STREAM', '8:57752'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'klein'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/klein-virtual-machine:@/tmp/.ICE-unix/1815,unix/klein-virtual-machine:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', '8a198f24569b43caad6e35084f3e8924'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/klein/camera_ros2/install/opencv_use:/home/klein/camera_ros2/install/astra_camera:/home/klein/camera_ros2/install/astra_camera_msgs:/home/klein/ros2move_ws/install/pkg01_helloworld_cpp:/home/klein/ros2move_ws/install/cpp01_topic:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8c27a63e-9f30-42b6-8e06-35fb1a21947f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/klein/camera_ros2/build/astra_camera'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/klein/camera_ros2/install/astra_camera_msgs:/home/klein/camera_ros2/install/opencv_use:/home/klein/camera_ros2/install/astra_camera:/home/klein/ros2move_ws/install/pkg01_helloworld_cpp:/home/klein/ros2move_ws/install/cpp01_topic:/opt/ros/foxy')]), 'shell': False}
+[3.169998] (astra_camera) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[3.171727] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/lib/libastra_camera.so\n'}
+[3.172639] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/lib/libOpenNI2.so\n'}
+[3.173059] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/lib//OpenNI2\n'}
+[3.173352] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/lib//OpenNI2/Drivers\n'}
+[3.173965] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/lib//OpenNI2/Drivers/orbbec.ini\n'}
+[3.174656] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/lib//OpenNI2/Drivers/liborbbec.so\n'}
+[3.174993] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/lib//OpenNI2/Drivers/libOniFile.so\n'}
+[3.175233] (-) TimerEvent: {}
+[3.176851] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/lib//OpenNI2/Drivers/OniFile.ini\n'}
+[3.177079] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/lib/astra_camera/list_devices_node\n'}
+[3.177571] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include\n'}
+[3.177694] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/astra_camera\n'}
+[3.177902] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/astra_camera/uvc_camera_driver.h\n'}
+[3.178191] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/astra_camera/dynamic_params.h\n'}
+[3.178840] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/astra_camera/device_listener.h\n'}
+[3.178937] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/astra_camera/ob_timer_filter.h\n'}
+[3.179276] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/astra_camera/point_cloud_proc\n'}
+[3.179635] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyzrgb.h\n'}
+[3.179901] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/astra_camera/point_cloud_proc/depth_traits.h\n'}
+[3.180136] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyz.h\n'}
+[3.180452] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/astra_camera/ob_frame_listener.h\n'}
+[3.180651] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/astra_camera/ob_camera_node.h\n'}
+[3.180926] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/astra_camera/utils.h\n'}
+[3.181673] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/astra_camera/ob_camera_node_factory.h\n'}
+[3.181966] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/astra_camera/ros_param_backend.h\n'}
+[3.182152] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/astra_camera/types.h\n'}
+[3.182577] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/astra_camera/constants.h\n'}
+[3.182796] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2\n'}
+[3.183258] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/Linux-Arm\n'}
+[3.185566] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/Linux-Arm/OniPlatformLinux-Arm.h\n'}
+[3.186522] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/OniProperties.h\n'}
+[3.186659] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/Driver\n'}
+[3.187591] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/Driver/OniDriverAPI.h\n'}
+[3.188223] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/Driver/OniDriverTypes.h\n'}
+[3.188744] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/OniTest.h\n'}
+[3.190190] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/KinectProperties.h\n'}
+[3.190480] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/PrimeSense.h\n'}
+[3.190663] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/MacOSX\n'}
+[3.190857] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/MacOSX/OniPlatformMacOSX.h\n'}
+[3.191018] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/OniVersion.h\n'}
+[3.191145] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/PSLink.h\n'}
+[3.191310] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/OpenNI.h\n'}
+[3.191482] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/OniCEnums.h\n'}
+[3.191653] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/OniCProperties.h\n'}
+[3.191856] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/OniCAPI.h\n'}
+[3.192026] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/OniCTypes.h\n'}
+[3.192192] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/Android-Arm\n'}
+[3.192367] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/Android-Arm/OniPlatformAndroid-Arm.h\n'}
+[3.192544] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/OniEnums.h\n'}
+[3.192673] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/PS1080.h\n'}
+[3.192850] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/OniPlatform.h\n'}
+[3.193026] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/Linux-x86\n'}
+[3.198726] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/Linux-x86/OniPlatformLinux-x86.h\n'}
+[3.199174] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist\n'}
+[3.199381] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/x64\n'}
+[3.199552] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/x64/libOpenNI2.so\n'}
+[3.199623] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI.ini\n'}
+[3.199791] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2\n'}
+[3.199928] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2/Drivers\n'}
+[3.200069] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2/Drivers/orbbec.ini\n'}
+[3.200467] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2/Drivers/liborbbec.so\n'}
+[3.200671] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2/Drivers/libOniFile.so\n'}
+[3.200923] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2/Drivers/OniFile.ini\n'}
+[3.201138] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm\n'}
+[3.201333] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm/libOpenNI2.so\n'}
+[3.201523] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm/NiViewer\n'}
+[3.201741] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm/libDepthUtils.a\n'}
+[3.201968] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm/PS1080Console\n'}
+[3.202401] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm/SimpleRead\n'}
+[3.202661] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI.ini\n'}
+[3.202750] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2\n'}
+[3.202831] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2/Drivers\n'}
+[3.202926] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2/Drivers/orbbec.ini\n'}
+[3.203044] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2/Drivers/liborbbec.so\n'}
+[3.203149] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2/Drivers/libOniFile.so\n'}
+[3.203241] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2/Drivers/OniFile.ini\n'}
+[3.203328] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm64\n'}
+[3.203538] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm64/libOpenNI2.so\n'}
+[3.204071] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm64/NiViewer\n'}
+[3.206608] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm64/libDepthUtils.a\n'}
+[3.207105] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm64/PS1080Console\n'}
+[3.207203] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm64/SimpleRead\n'}
+[3.207281] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI.ini\n'}
+[3.207394] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2\n'}
+[3.207463] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2/Drivers\n'}
+[3.207541] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2/Drivers/orbbec.ini\n'}
+[3.207611] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2/Drivers/liborbbec.so\n'}
+[3.207678] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2/Drivers/libOniFile.so\n'}
+[3.208029] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2/Drivers/OniFile.ini\n'}
+[3.208327] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/SonixCamera.h\n'}
+[3.208530] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/Win32\n'}
+[3.208654] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/Win32/OniPlatformWin32.h\n'}
+[3.208726] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/include/openni2/util.h\n'}
+[3.208793] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//launch\n'}
+[3.208880] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//launch/multi_dabai_pro.launch.py\n'}
+[3.210498] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//launch/multi_dabai.launch.py\n'}
+[3.211035] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//launch/dabai_pro.launch.py\n'}
+[3.211293] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//launch/.gitkeep\n'}
+[3.211380] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//launch/multi_dabai_dw.launch.py\n'}
+[3.211453] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//launch/multi_astra_mini.launch.py\n'}
+[3.211524] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//launch/dabai_dcw.launch.py\n'}
+[3.212534] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//launch/dabai_dw.launch.py\n'}
+[3.212753] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//launch/dabai.launch.py\n'}
+[3.212939] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//launch/astra_mini.launch.py\n'}
+[3.213115] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//launch/multi_dabai_dcw.launch.py\n'}
+[3.213292] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//config\n'}
+[3.213631] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//config/.gitkeep\n'}
+[3.213834] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//params\n'}
+[3.214017] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//params/.gitkeep\n'}
+[3.214201] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//params/astra_mini_params.yaml\n'}
+[3.214390] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//params/dabai_dw_params.yaml\n'}
+[3.214604] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//params/dabai_pro_params.yaml\n'}
+[3.214785] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//params/camera_params_template.yaml\n'}
+[3.214969] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//params/dabai_params.yaml\n'}
+[3.215145] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//params/dabai_dcw_params.yaml\n'}
+[3.216378] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//rviz\n'}
+[3.216582] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//rviz/.gitkeep\n'}
+[3.216729] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//rviz/pointcloud.rviz\n'}
+[3.216914] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera//rviz/multi_camera.rviz\n'}
+[3.218099] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera/environment/library_path.sh\n'}
+[3.218480] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera/environment/library_path.dsv\n'}
+[3.222483] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/ament_index/resource_index/package_run_dependencies/astra_camera\n'}
+[3.223034] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/ament_index/resource_index/parent_prefix_path/astra_camera\n'}
+[3.223591] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera/environment/ament_prefix_path.sh\n'}
+[3.224005] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera/environment/ament_prefix_path.dsv\n'}
+[3.224414] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera/environment/path.sh\n'}
+[3.224854] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera/environment/path.dsv\n'}
+[3.225225] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera/local_setup.bash\n'}
+[3.225549] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera/local_setup.sh\n'}
+[3.225906] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera/local_setup.zsh\n'}
+[3.226530] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera/local_setup.dsv\n'}
+[3.226952] (astra_camera) StdoutLine: {'line': b'-- Installing: /home/klein/camera_ros2/install/astra_camera/share/astra_camera/package.dsv\n'}
+[3.227320] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/ament_index/resource_index/packages/astra_camera\n'}
+[3.227465] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/ament_index/resource_index/rclcpp_components/astra_camera\n'}
+[3.227771] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.228091] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.228381] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.228479] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig.cmake\n'}
+[3.228859] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig-version.cmake\n'}
+[3.230788] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/astra_camera/share/astra_camera/package.xml\n'}
+[3.231250] (astra_camera) CommandEnded: {'returncode': 0}
+[3.276542] (-) TimerEvent: {}
+[3.379296] (-) TimerEvent: {}
+[3.438537] (astra_camera) JobEnded: {'identifier': 'astra_camera', 'rc': 0}
+[3.481272] (-) TimerEvent: {}
+[3.582001] (-) TimerEvent: {}
+[3.683118] (-) TimerEvent: {}
+[3.784047] (-) TimerEvent: {}
+[3.885120] (-) TimerEvent: {}
+[3.985914] (-) TimerEvent: {}
+[4.087401] (-) TimerEvent: {}
+[4.189248] (-) TimerEvent: {}
+[4.291099] (-) TimerEvent: {}
+[4.393084] (-) TimerEvent: {}
+[4.494305] (-) TimerEvent: {}
+[4.595409] (-) TimerEvent: {}
+[4.696272] (-) TimerEvent: {}
+[4.797037] (-) TimerEvent: {}
+[4.898022] (-) TimerEvent: {}
+[4.999044] (-) TimerEvent: {}
+[5.100517] (-) TimerEvent: {}
+[5.202113] (-) TimerEvent: {}
+[5.303073] (-) TimerEvent: {}
+[5.411505] (-) TimerEvent: {}
+[5.513024] (-) TimerEvent: {}
+[5.614048] (-) TimerEvent: {}
+[5.717348] (-) TimerEvent: {}
+[5.827254] (-) TimerEvent: {}
+[5.942410] (-) TimerEvent: {}
+[6.044456] (-) TimerEvent: {}
+[6.148167] (-) TimerEvent: {}
+[6.249129] (-) TimerEvent: {}
+[6.350093] (-) TimerEvent: {}
+[6.451234] (-) TimerEvent: {}
+[6.552218] (-) TimerEvent: {}
+[6.653260] (-) TimerEvent: {}
+[6.754662] (-) TimerEvent: {}
+[6.856353] (-) TimerEvent: {}
+[6.958186] (-) TimerEvent: {}
+[7.059201] (-) TimerEvent: {}
+[7.160446] (-) TimerEvent: {}
+[7.261222] (-) TimerEvent: {}
+[7.362888] (-) TimerEvent: {}
+[7.464345] (-) TimerEvent: {}
+[7.565921] (-) TimerEvent: {}
+[7.668604] (-) TimerEvent: {}
+[7.772821] (-) TimerEvent: {}
+[7.873835] (-) TimerEvent: {}
+[7.975511] (-) TimerEvent: {}
+[8.077508] (-) TimerEvent: {}
+[8.178644] (-) TimerEvent: {}
+[8.280645] (-) TimerEvent: {}
+[8.383147] (-) TimerEvent: {}
+[8.485808] (-) TimerEvent: {}
+[8.586821] (-) TimerEvent: {}
+[8.687836] (-) TimerEvent: {}
+[8.790575] (-) TimerEvent: {}
+[8.894142] (-) TimerEvent: {}
+[9.000937] (-) TimerEvent: {}
+[9.101862] (-) TimerEvent: {}
+[9.215369] (-) TimerEvent: {}
+[9.321390] (-) TimerEvent: {}
+[9.425457] (-) TimerEvent: {}
+[9.526647] (-) TimerEvent: {}
+[9.627579] (-) TimerEvent: {}
+[9.728610] (-) TimerEvent: {}
+[9.830704] (-) TimerEvent: {}
+[9.931676] (-) TimerEvent: {}
+[10.033454] (-) TimerEvent: {}
+[10.134804] (-) TimerEvent: {}
+[10.236150] (-) TimerEvent: {}
+[10.337688] (-) TimerEvent: {}
+[10.439444] (-) TimerEvent: {}
+[10.540894] (-) TimerEvent: {}
+[10.642018] (-) TimerEvent: {}
+[10.743013] (-) TimerEvent: {}
+[10.844803] (-) TimerEvent: {}
+[10.945989] (-) TimerEvent: {}
+[11.047286] (-) TimerEvent: {}
+[11.163081] (-) TimerEvent: {}
+[11.264429] (-) TimerEvent: {}
+[11.365204] (-) TimerEvent: {}
+[11.465890] (-) TimerEvent: {}
+[11.566723] (-) TimerEvent: {}
+[11.668620] (-) TimerEvent: {}
+[11.770388] (-) TimerEvent: {}
+[11.876878] (-) TimerEvent: {}
+[11.978857] (-) TimerEvent: {}
+[12.079837] (-) TimerEvent: {}
+[12.180873] (-) TimerEvent: {}
+[12.281831] (-) TimerEvent: {}
+[12.383896] (-) TimerEvent: {}
+[12.485680] (-) TimerEvent: {}
+[12.586510] (-) TimerEvent: {}
+[12.687475] (-) TimerEvent: {}
+[12.788845] (-) TimerEvent: {}
+[12.892239] (-) TimerEvent: {}
+[12.993233] (-) TimerEvent: {}
+[13.095015] (-) TimerEvent: {}
+[13.196068] (-) TimerEvent: {}
+[13.296998] (-) TimerEvent: {}
+[13.397996] (-) TimerEvent: {}
+[13.499305] (-) TimerEvent: {}
+[13.600316] (-) TimerEvent: {}
+[13.701513] (-) TimerEvent: {}
+[13.802462] (-) TimerEvent: {}
+[13.906492] (-) TimerEvent: {}
+[14.008348] (-) TimerEvent: {}
+[14.110762] (-) TimerEvent: {}
+[14.212380] (-) TimerEvent: {}
+[14.313511] (-) TimerEvent: {}
+[14.414258] (-) TimerEvent: {}
+[14.514783] (-) TimerEvent: {}
+[14.615716] (-) TimerEvent: {}
+[14.716639] (-) TimerEvent: {}
+[14.817674] (-) TimerEvent: {}
+[14.918974] (-) TimerEvent: {}
+[15.020827] (-) TimerEvent: {}
+[15.121739] (-) TimerEvent: {}
+[15.222679] (-) TimerEvent: {}
+[15.323673] (-) TimerEvent: {}
+[15.424325] (-) TimerEvent: {}
+[15.525770] (-) TimerEvent: {}
+[15.628461] (-) TimerEvent: {}
+[15.729437] (-) TimerEvent: {}
+[15.830553] (-) TimerEvent: {}
+[15.931365] (-) TimerEvent: {}
+[16.032428] (-) TimerEvent: {}
+[16.133714] (-) TimerEvent: {}
+[16.235348] (-) TimerEvent: {}
+[16.336473] (-) TimerEvent: {}
+[16.437713] (-) TimerEvent: {}
+[16.539755] (-) TimerEvent: {}
+[16.642495] (-) TimerEvent: {}
+[16.743667] (-) TimerEvent: {}
+[16.844520] (-) TimerEvent: {}
+[16.945705] (-) TimerEvent: {}
+[17.046953] (-) TimerEvent: {}
+[17.147800] (-) TimerEvent: {}
+[17.248723] (-) TimerEvent: {}
+[17.349752] (-) TimerEvent: {}
+[17.450983] (-) TimerEvent: {}
+[17.551615] (-) TimerEvent: {}
+[17.652454] (-) TimerEvent: {}
+[17.753700] (-) TimerEvent: {}
+[17.854818] (-) TimerEvent: {}
+[17.955627] (-) TimerEvent: {}
+[18.057563] (-) TimerEvent: {}
+[18.159543] (-) TimerEvent: {}
+[18.260410] (-) TimerEvent: {}
+[18.361415] (-) TimerEvent: {}
+[18.462376] (-) TimerEvent: {}
+[18.563473] (-) TimerEvent: {}
+[18.665550] (-) TimerEvent: {}
+[18.766693] (-) TimerEvent: {}
+[18.867794] (-) TimerEvent: {}
+[18.968480] (-) TimerEvent: {}
+[19.069249] (-) TimerEvent: {}
+[19.170236] (-) TimerEvent: {}
+[19.271411] (-) TimerEvent: {}
+[19.372298] (-) TimerEvent: {}
+[19.473126] (-) TimerEvent: {}
+[19.574823] (-) TimerEvent: {}
+[19.675615] (-) TimerEvent: {}
+[19.777007] (-) TimerEvent: {}
+[19.878637] (-) TimerEvent: {}
+[19.980377] (-) TimerEvent: {}
+[20.081233] (-) TimerEvent: {}
+[20.183224] (-) TimerEvent: {}
+[20.284309] (-) TimerEvent: {}
+[20.385473] (-) TimerEvent: {}
+[20.487217] (-) TimerEvent: {}
+[20.588057] (-) TimerEvent: {}
+[20.689073] (-) TimerEvent: {}
+[20.789974] (-) TimerEvent: {}
+[20.891238] (-) TimerEvent: {}
+[20.994586] (-) TimerEvent: {}
+[21.096582] (-) TimerEvent: {}
+[21.197993] (-) TimerEvent: {}
+[21.298760] (-) TimerEvent: {}
+[21.399828] (-) TimerEvent: {}
+[21.500718] (-) TimerEvent: {}
+[21.603335] (-) TimerEvent: {}
+[21.706579] (-) TimerEvent: {}
+[21.810457] (-) TimerEvent: {}
+[21.914569] (-) TimerEvent: {}
+[22.015699] (-) TimerEvent: {}
+[22.117068] (-) TimerEvent: {}
+[22.218329] (-) TimerEvent: {}
+[22.319478] (-) TimerEvent: {}
+[22.420489] (-) TimerEvent: {}
+[22.521660] (-) TimerEvent: {}
+[22.623603] (-) TimerEvent: {}
+[22.724785] (-) TimerEvent: {}
+[22.829828] (-) TimerEvent: {}
+[22.930970] (-) TimerEvent: {}
+[23.032290] (-) TimerEvent: {}
+[23.133605] (-) TimerEvent: {}
+[23.235492] (-) TimerEvent: {}
+[23.336063] (-) TimerEvent: {}
+[23.438132] (-) TimerEvent: {}
+[23.540529] (-) TimerEvent: {}
+[23.642900] (-) TimerEvent: {}
+[23.746751] (-) TimerEvent: {}
+[23.848772] (-) TimerEvent: {}
+[23.949511] (-) TimerEvent: {}
+[23.980972] (opencv_use) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_opencv\x1b[0m\n'}
+[24.050205] (-) TimerEvent: {}
+[24.159972] (-) TimerEvent: {}
+[24.262486] (-) TimerEvent: {}
+[24.367469] (-) TimerEvent: {}
+[24.469019] (-) TimerEvent: {}
+[24.577411] (-) TimerEvent: {}
+[24.678791] (-) TimerEvent: {}
+[24.779938] (-) TimerEvent: {}
+[24.880829] (-) TimerEvent: {}
+[24.985824] (-) TimerEvent: {}
+[25.086774] (-) TimerEvent: {}
+[25.187785] (-) TimerEvent: {}
+[25.288604] (-) TimerEvent: {}
+[25.389888] (-) TimerEvent: {}
+[25.490780] (-) TimerEvent: {}
+[25.593060] (-) TimerEvent: {}
+[25.693834] (-) TimerEvent: {}
+[25.775969] (opencv_use) StdoutLine: {'line': b'[100%] Built target my_opencv\n'}
+[25.795925] (-) TimerEvent: {}
+[25.816346] (opencv_use) CommandEnded: {'returncode': 0}
+[25.896827] (-) TimerEvent: {}
+[25.942966] (opencv_use) JobProgress: {'identifier': 'opencv_use', 'progress': 'install'}
+[25.943547] (opencv_use) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/klein/camera_ros2/build/opencv_use'], 'cwd': '/home/klein/camera_ros2/build/opencv_use', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'klein'), ('SSH_AGENT_PID', '1780'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/klein/camera_ros2/install/astra_camera/lib:/home/klein/camera_ros2/install/astra_camera_msgs/lib:/usr/local/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/klein'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1682'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '18665'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/klein/camera_ros2/install:/home/klein/ros2move_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'klein'), ('JOURNAL_STREAM', '8:57752'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'klein'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/klein-virtual-machine:@/tmp/.ICE-unix/1815,unix/klein-virtual-machine:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', '8a198f24569b43caad6e35084f3e8924'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/klein/camera_ros2/install/opencv_use:/home/klein/camera_ros2/install/astra_camera:/home/klein/camera_ros2/install/astra_camera_msgs:/home/klein/ros2move_ws/install/pkg01_helloworld_cpp:/home/klein/ros2move_ws/install/cpp01_topic:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8c27a63e-9f30-42b6-8e06-35fb1a21947f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/klein/camera_ros2/build/opencv_use'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/klein/camera_ros2/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/klein/camera_ros2/install/opencv_use:/home/klein/camera_ros2/install/astra_camera:/home/klein/camera_ros2/install/astra_camera_msgs:/home/klein/ros2move_ws/install/pkg01_helloworld_cpp:/home/klein/ros2move_ws/install/cpp01_topic:/opt/ros/foxy')]), 'shell': False}
+[25.967892] (opencv_use) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.969129] (opencv_use) StdoutLine: {'line': b'-- Installing: /home/klein/camera_ros2/install/opencv_use/lib/opencv_use/my_opencv\n'}
+[25.977939] (opencv_use) StdoutLine: {'line': b'-- Set runtime path of "/home/klein/camera_ros2/install/opencv_use/lib/opencv_use/my_opencv" to ""\n'}
+[25.978781] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/ament_index/resource_index/package_run_dependencies/opencv_use\n'}
+[25.979586] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/ament_index/resource_index/parent_prefix_path/opencv_use\n'}
+[25.979876] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/environment/ament_prefix_path.sh\n'}
+[25.980108] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/environment/ament_prefix_path.dsv\n'}
+[25.980287] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/environment/path.sh\n'}
+[25.980460] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/environment/path.dsv\n'}
+[25.980719] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/local_setup.bash\n'}
+[25.980899] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/local_setup.sh\n'}
+[25.981602] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/local_setup.zsh\n'}
+[25.982184] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/local_setup.dsv\n'}
+[25.982370] (opencv_use) StdoutLine: {'line': b'-- Installing: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/package.dsv\n'}
+[25.982541] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/ament_index/resource_index/packages/opencv_use\n'}
+[25.984137] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/cmake/opencv_useConfig.cmake\n'}
+[25.984482] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/cmake/opencv_useConfig-version.cmake\n'}
+[25.984761] (opencv_use) StdoutLine: {'line': b'-- Up-to-date: /home/klein/camera_ros2/install/opencv_use/share/opencv_use/package.xml\n'}
+[25.989635] (opencv_use) CommandEnded: {'returncode': 0}
+[25.999383] (-) TimerEvent: {}
+[26.101572] (-) TimerEvent: {}
+[26.170358] (opencv_use) JobEnded: {'identifier': 'opencv_use', 'rc': 0}
+[26.174738] (-) EventReactorShutdown: {}

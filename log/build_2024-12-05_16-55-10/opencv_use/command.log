@@ -1,0 +1,4 @@
+Invoking command in '/home/klein/camera_ros2/build/opencv_use': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/klein/camera_ros2/install/demo_cv_image:/opt/ros/foxy /usr/bin/cmake --build /home/klein/camera_ros2/build/opencv_use -- -j4 -l4
+Invoked command in '/home/klein/camera_ros2/build/opencv_use' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/klein/camera_ros2/install/demo_cv_image:/opt/ros/foxy /usr/bin/cmake --build /home/klein/camera_ros2/build/opencv_use -- -j4 -l4
+Invoking command in '/home/klein/camera_ros2/build/opencv_use': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/klein/camera_ros2/install/demo_cv_image:/opt/ros/foxy /usr/bin/cmake --install /home/klein/camera_ros2/build/opencv_use
+Invoked command in '/home/klein/camera_ros2/build/opencv_use' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/klein/camera_ros2/install/demo_cv_image:/opt/ros/foxy /usr/bin/cmake --install /home/klein/camera_ros2/build/opencv_use

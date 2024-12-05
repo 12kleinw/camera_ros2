@@ -1,0 +1,11 @@
+/home/klein/camera_ros2/build/astra_camera/CMakeFiles/install/strip.dir
+/home/klein/camera_ros2/build/astra_camera/CMakeFiles/install/local.dir
+/home/klein/camera_ros2/build/astra_camera/CMakeFiles/install.dir
+/home/klein/camera_ros2/build/astra_camera/CMakeFiles/list_install_components.dir
+/home/klein/camera_ros2/build/astra_camera/CMakeFiles/rebuild_cache.dir
+/home/klein/camera_ros2/build/astra_camera/CMakeFiles/astra_camera.dir
+/home/klein/camera_ros2/build/astra_camera/CMakeFiles/edit_cache.dir
+/home/klein/camera_ros2/build/astra_camera/CMakeFiles/test.dir
+/home/klein/camera_ros2/build/astra_camera/CMakeFiles/list_devices_node.dir
+/home/klein/camera_ros2/build/astra_camera/CMakeFiles/astra_camera_uninstall.dir
+/home/klein/camera_ros2/build/astra_camera/CMakeFiles/uninstall.dir

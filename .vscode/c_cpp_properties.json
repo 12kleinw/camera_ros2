@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/klein/camera_ros2/install/astra_camera/include/**",
+        "/home/klein/camera_ros2/install/astra_camera_msgs/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/klein/camera_ros2/src/ros2_astra_camera/astra_camera/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
